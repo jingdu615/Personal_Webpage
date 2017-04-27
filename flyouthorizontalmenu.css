@@ -1,0 +1,111 @@
+/* Define the body style */
+
+#hmenuwrapper{
+    font-size: 12px;
+    margin-left: 1.9in;
+    font-family: 'Trebuchet MS', Arial;
+    text-align: center;
+    vertical-align: bottom;
+    margin-top: 0.1in;
+    margin-bottom: 0.1in;
+    font-weight: bold;
+}
+ 
+/* We remove the margin, padding, and list style of UL and LI components */
+#hmenuwrapper ul, #hmenuwrapper ul li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+ 
+/* We float the li list to the left and apply background color and border right white and set the height to 25px. Note you can ignore the height if you do not want
+*/
+#hmenuwrapper ul li{
+    float:left;
+    background-color:#1b46d6;
+    border-right:solid 1px white;
+    height:25px;
+    line-height:25px;
+}
+ 
+/* We apply the background hover color when user hover the mouse over of the li component */
+#hmenuwrapper ul li:hover{
+    background-color:#13349e;
+    position:relative;
+}
+ 
+/* We apply the link style */
+#hmenuwrapper ul li a{
+    padding:0px 25px;
+    color:#ffffff;
+    display:inline-block;
+    text-decoration:none;
+}
+ 
+/**** SECOND LEVEL MENU ****/
+/* We make the position to absolute for flyout menu and hidden the ul until the user hover the parent li item */
+#hmenuwrapper ul li ul{
+    position:absolute;
+    display:none;
+}
+ 
+/* When user has hovered the li item, we show the ul list by applying display:block, note: 25px is the menu height.  */
+#hmenuwrapper ul li:hover ul{
+    left:0;
+    top:25px;
+    display:block;
+}
+ 
+/* As the parent li has float:left property, we overwrite for the submenu (level 2) to float none (normal position)  */
+#hmenuwrapper ul li ul li{
+    color:#454444;
+    float:none;
+    width:150px;
+    background-color:#19a1cf;
+}
+ 
+/* We change the background color for the level 2 submenu when hovering the menu */
+#hmenuwrapper ul li:hover ul li:hover{
+    background-color:#0c5fa8;
+}
+ 
+/* We style the color of level 2 links */
+#hmenuwrapper ul li ul li a{
+    color:#ffffff;
+    display:inline-block;
+    width:120px;
+}
+ 
+/**** THIRD LEVEL MENU ****/
+/* We need to hide the 3rd menu, when hovering the first level menu */
+#hmenuwrapper ul li:hover ul li ul{
+    position:absolute;
+    display:none;
+}
+ 
+/* We show the third level menu only when they hover the second level menu parent */
+#hmenuwrapper ul li:hover ul li:hover ul{
+    display:block;
+    left:150px;
+    top:0;
+}
+ 
+/* We change the background color for the level 3 submenu*/
+#hmenuwrapper ul li:hover ul li:hover ul li{
+    background:#86d3fa;
+}
+ 
+/* We change the background color for the level 3 submenu when hovering the menu */
+#hmenuwrapper ul li:hover ul li:hover ul li:hover{
+    background:#358ebc;
+}
+ 
+/* We change the level 3 link color */
+#hmenuwrapper ul li:hover ul li:hover ul li a{
+    color:#ffffff;
+}
+ 
+/* Clear float */
+.clear{
+    clear:both;
+}

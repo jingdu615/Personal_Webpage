@@ -1,0 +1,291 @@
+body{
+    background-image: url("background.jpg");
+    font-family: 'Trebuchet MS', Arial;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+h1{
+    max-width: 7.5in;
+    font-family: 'Trebuchet MS', Arial;
+    vertical-align: middle;
+    /*background-color: #E2EFEE;*/
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+h2{
+    max-width: 7.5in;
+    font-family: 'Trebuchet MS', Arial;
+    text-align: left;
+    vertical-align: middle;
+    background-color: silver;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+h3{
+    max-width: 7.5in;
+    font-family: 'Trebuchet MS', Arial;
+    text-align: left;
+    vertical-align: middle;
+    background-color: silver;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+h4{
+    max-width: 7.5in;
+    font-family: 'Trebuchet MS', Arial;
+    text-align: left;
+    vertical-align: middle;
+    background-color: silver;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+h5{
+    max-width: 7.5in;
+    font-family: 'Trebuchet MS', Arial;
+    text-align: left;
+    vertical-align: middle;
+    background-color: silver;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+h6{
+    max-width: 7.5in;
+    font-family: 'Trebuchet MS', Arial;
+    text-align: left;
+    vertical-align: middle;
+    background-color: silver;
+    float: left;
+    width: 100%;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+p{
+    font-weight: bold;
+    margin-left: 0in;
+    margin-top: 0in;
+    margin-bottom: 0in;
+    max-width: 7.5in;
+    margin: 0in;
+    font-family: 'Trebuchet MS', Arial;
+    text-align: left;
+    vertical-align: middle;
+}
+
+p > em{
+    font-weight: normal;
+    margin-left: 0in;
+    margin-top: 0in;
+    margin-bottom: 0in;
+    max-width: 7.5in;
+    margin: 0in;
+    font-family: 'Trebuchet MS', Arial;
+    text-align: left;
+    vertical-align: middle;
+    color: darkblue;
+}
+
+li > em {
+    font-weight: normal;
+}
+
+ul > li {
+        font-weight: normal;
+        margin-left: 0.25in;
+    }
+
+
+a:link {
+color: #000066;
+/*background-color: #E2EFEE;*/
+text-decoration: underline;
+font-size: 12px;
+line-height: 16px;
+}
+a:visited {
+color: #999999;
+/*background-color: #E2EFEE;*/
+text-decoration: underline;
+}
+a:hover {
+border: none;
+color: #999999;
+/*background-color: #E2EFEE;*/
+text-align: left;
+}
+a:active {
+color: #330066;
+/*background-color: #E2EFEE;*/
+}
+
+table{
+    width: 7in;
+}
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;    
+}
+
+#headercontainer {
+    width: 8.5in;
+    height: 0.66in;
+    margin-left: 100px;
+    margin-right: auto;
+    border: 5px solid #900;
+    border-bottom: none;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    clear: both;
+}
+
+#mainheader {
+    height: 172px;
+    font-size: 2em;
+    font-weight: bold;
+    color: darkblue;
+    font-family: "dax";
+}
+
+#menucontainer {
+    width: 8.5in;
+    height: 2.5in;
+    margin-left: 100px;
+    margin-right: auto;
+    border: 5px solid #900;
+    border-top:none;
+    border-bottom: none;
+    position: absolute;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 5px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    clear: both;
+}
+
+#contentcontainer {
+    width: 8.5in;
+    margin-left: 100px;
+    margin-right: auto;
+    border: 5px solid #900;
+    position: absolute;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #E2EFEE;
+    padding: 5px;
+    margin-top: 220px;
+    margin-bottom: 25px;
+    clear: both;
+}
+
+#content {
+    max-width: 7.5in;
+    font-family: 'Trebuchet MS', Arial;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    /*background-color: #E2EFEE;*/
+}
+
+
+#col1 {
+    border: none;
+    position: relative;
+    float: left;
+    width: 40%;
+    height: auto;
+    vertical-align: middle;
+    /*background-color: #E2EFEE;*/
+    text-align: left;
+    padding: 0;
+    margin-top: 0.25in;
+    margin-right: 0.25in;
+    margin-bottom: 0.15in;
+    margin-left: 0;
+}
+#col2 {
+    border: none;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: auto;
+    /*background-color: #E2EFEE;*/
+    text-align: left;
+    padding: 0;
+    margin-top: 0.25in;
+    margin-right: 0.25in;
+    margin-bottom: 0.15in;
+    margin-left: 0;
+    vertical-align: middle; 
+}
+#meimg {
+    border: none;
+    height: 200px;
+    width: 200px;
+}
+
+#footer {
+    border: 1px inset #66CC66;
+    position: relative;
+    clear: both;
+    float: left;
+    height: auto;
+    width: 100%;
+    font-size: 0.8em;
+    background-color: #FFF;
+    color: #000000;
+    text-align: center;
+    border: 5px inset #00FFFF;
+    vertical-align: middle;
+    margin-top: 0.75in;
+    margin-right: 0;
+    margin-bottom: 0.25in;
+    margin-left: 0;
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'dax';
+    src:url("Dax-Regular.ttf") format('truetype');
+    font-weight: 300;
+}
+
